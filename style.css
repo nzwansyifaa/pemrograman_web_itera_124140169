@@ -1,0 +1,206 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+}
+
+.topbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.topbar h1 {
+  margin: 0;
+}
+
+.topbar p {
+  margin: 5px 0 0;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.kolom-kiri {
+  flex: 2;
+}
+
+.panel,
+.struk {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.struk {
+  flex: 1;
+  align-self: flex-start;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+/* Form */
+.baris {
+  display: flex;
+  gap: 10px;
+}
+
+.field {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+/* Tombol */
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-utama {
+  background-color: #27ae60;
+  color: white;
+  width: 100%;
+}
+
+.btn-utama:hover {
+  background-color: #1e8449;
+}
+
+.btn-sekunder {
+  background-color: #7f8c8d;
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.btn-sekunder:hover {
+  background-color: #626d6e;
+}
+
+.btn-hapus {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-hapus:hover {
+  background-color: #c0392b;
+}
+
+/* Tabel */
+.tabel-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ecf0f1;
+}
+
+.angka {
+  text-align: right;
+}
+
+.kosong {
+  text-align: center;
+  color: #777;
+}
+
+/* Struk */
+dl {
+  margin: 0;
+}
+
+dl div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+dt,
+dd {
+  margin: 0;
+}
+
+.total {
+  border-top: 1px solid #999;
+  font-weight: bold;
+}
+
+.info-diskon {
+  font-size: 13px;
+  color: #d35400;
+}
+
+.hasil-bayar {
+  font-weight: bold;
+}
+
+.hasil-bayar.kurang {
+  color: red;
+}
+
+.hasil-bayar.cukup {
+  color: green;
+}
+
+/* Tampilan HP */
+@media (max-width: 700px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .baris {
+    flex-direction: column;
+    gap: 0;
+  }
+}
