@@ -10,7 +10,7 @@ Mini POS adalah aplikasi web kasir sederhana untuk kantin atau toko kampus. Kasi
 
 ## Panduan Menjalankan
 1. Clone atau unduh repository ini.
-2. Buka folder `Nazwa Nasyifaa Mega_124140169_pertemuan1` di VS Code.
+2. Buka folder `nazwansyifaamega_124140169_pertemuan1` di VS Code.
 3. Klik kanan `index.html`, pilih **Open with Live Server**.
 
 ## Daftar Fitur
