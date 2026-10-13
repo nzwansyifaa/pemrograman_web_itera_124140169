@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+}
+
+.topbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.topbar h1 {
+  margin: 0;
+}
+
+.topbar p {
+  margin: 5px 0 0;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.kolom-kiri {
+  flex: 1;
+}
+
+.kolom-kanan {
+  flex: 2;
+}
+
+.panel {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  min-height: 16px;
+}
+
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-utama {
+  background-color: #27ae60;
+  width: 100%;
+}
+
+.btn-sekunder {
+  background-color: #7f8c8d;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.btn-kecil {
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+.btn-selesai {
+  background-color: #2980b9;
+}
+
+.btn-edit {
+  background-color: #f39c12;
+}
+
+.btn-hapus {
+  background-color: #e74c3c;
+}
+
+.statistik {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.kotak {
+  flex: 1;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.kotak span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tugas {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.tugas.selesai .judul-tugas {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.tugas.terlambat {
+  border-color: red;
+}
+
+.judul-tugas {
+  font-weight: bold;
+}
+
+.info-tugas {
+  font-size: 13px;
+  color: #666;
+  margin: 4px 0 8px;
+}
+
+.label-terlambat {
+  color: red;
+  font-weight: bold;
+}
+
+.kosong {
+  text-align: center;
+  color: #777;
+}
+
+@media (max-width: 700px) {
+  .layout {
+    flex-direction: column;
+  }
+}
