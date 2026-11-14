@@ -2,7 +2,7 @@
 
 **Praktikum Pengembangan Aplikasi Web - Pertemuan 5 (Python OOP)**
 
-- Nama: Nazwa Nasyifa Mega
+- Nama: Nazwa Nasyifaa Mega
 - NIM: 124140169
 - Kelas: PAW RA
 
@@ -38,7 +38,7 @@ Pastikan Python 3 sudah terpasang. Buka terminal di folder `nazwanasyifaamega_12
 cd tugas_perpustakaan
 python main.py
 
-# File latihan (dari folder pertemuan5)
+# File latihan
 cd ..
 python latihan/01_everything_is_object.py
 python latihan/02_class_object.py
@@ -49,16 +49,16 @@ Jika perintah `python` tidak dikenali, gunakan `python3`.
 ## Screenshot Output
 
 ### Penambahan item dan tampilan katalog
-![Tambah item dan katalog](screenshots/1-tambah-dan-katalog.png)
+![Tambah item dan katalog](screenshots/tambah%20dan%20katalog.png)
 
 ### Pencarian item
-![Pencarian](screenshots/2-pencarian.png)
+![Pencarian](screenshots/pencarian.png)
 
 ### Peminjaman, pengembalian, dan denda
-![Peminjaman dan denda](screenshots/3-peminjaman-dan-denda.png)
+![Peminjaman dan denda](screenshots/peminjaman%20dan%20denda.png)
 
 ### Uji encapsulation dan abstract class
-![Encapsulation dan abstract class](screenshots/4-encapsulation.png)
+![Encapsulation dan abstract class](screenshots/encapsulation.png)
 
 ## Struktur Folder
 
